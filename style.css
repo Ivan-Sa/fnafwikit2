@@ -96,6 +96,10 @@ li {
     text-align: center;
 }
 
+#main1 summary {
+    display: inline-block;
+}
+
 #back{
     position: fixed;
     bottom: 0;
@@ -114,14 +118,13 @@ li {
 }
 
 .main2 {
-    display: inline-block;
     position: relative;
     background-image: url(paper-texture.jpg);
     background-size: cover;
     height: 33vw;
     width: 55vw;
     box-shadow: 2px 2px 4px black;
-    top: 35vw;
+    top: 25vw;
 }
 
 .indexText {
