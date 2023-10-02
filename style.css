@@ -1,0 +1,133 @@
+@font-face {
+    font-family: belligerentMadness;
+    src: url(belligerent.ttf);
+}
+
+@font-face {
+    font-family: handW;
+    src: url(Daniel-Bold.otf);
+}
+
+@font-face {
+    font-family: bit;
+    src: url(slkscre.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    background-image: url(fnaftexturebeta.png);
+    background-size: auto;
+}
+
+header {
+    background-image: url(fnafBanner.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 5vw;
+    font-family: bit;
+}
+
+header h1 {
+    line-height: 5vw;
+}
+
+li {
+    list-style: none;
+}
+
+#index {
+    background-image: url(fnafBar.png);
+    background-size: contain;
+    height: 25px;
+    width: 100vw;;
+}
+
+#index2 {
+    position: relative;
+    font-family: belligerentMadness;
+    background-image: url(papelquemado.png);
+    background-size: cover;
+    text-align: center;
+    font-size: large;
+    float: right;
+    height:20vw;
+    width:18vw;
+    left: 10px;
+    margin-right: 27px; 
+    margin-left:120px;
+    margin-top:13px;
+    padding-top: 20px;
+    filter: drop-shadow(2px 2px 4px #000000);
+}
+
+#fifa {
+    display: inline-block;
+    background-image: url(fnafPoster.jpg);
+    background-size: cover;
+    height: 23vw;
+    width: 17vw;
+    margin-bottom: 180px;
+    margin-top: 13px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 4px black;
+}
+
+#main1 {
+    display: inline-block;
+    position: absolute;
+    background-image: url(paper-texture.jpg);
+    background-size: cover;
+    height: 33vw;
+    width: 55vw;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: handW;
+    box-shadow: 2px 2px 4px black;
+}
+
+#main1 h2 {
+    line-height: 5vw;
+    text-align: center;
+}
+
+#back{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 1vw;
+    background-image: url(papelquemado.png);
+    background-size: cover;
+}
+
+#back a{
+    text-decoration: none;
+    line-height: 1vw;
+    color: black;
+    font-family: belligerentMadness;
+    padding: 1vw;
+}
+
+.main2 {
+    display: inline-block;
+    position: relative;
+    background-image: url(paper-texture.jpg);
+    background-size: cover;
+    height: 33vw;
+    width: 55vw;
+    box-shadow: 2px 2px 4px black;
+    top: 35vw;
+}
+
+.indexText {
+    padding: 10px;
+    line-height: 40px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
