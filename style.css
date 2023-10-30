@@ -21,6 +21,7 @@ body {
     padding: 0;
     background-image: url(fnaftexturebeta.png);
     background-size: auto;
+    min-height: 100vh;
 }
 
 header {
@@ -45,7 +46,7 @@ li {
     background-image: url(fnafBar.png);
     background-size: contain;
     height: 25px;
-    width: 100vw;;
+    width: 100vw;
 }
 
 #index2 {
@@ -78,26 +79,37 @@ li {
     box-shadow: 2px 2px 4px black;
 }
 
-#main1 {
+#fifa details{
+    margin-top: 100px;
+    margin-left: 95px;
+    transition-delay: 100ms;
+    transition: removeAtribute("open");
+}
+
+#fifa details img{
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+}
+
+#juegos {
     display: inline-block;
     position: absolute;
     background-image: url(paper-texture.jpg);
     background-size: cover;
     height: 33vw;
     width: 55vw;
-    margin-top: 10px;
+    margin-top: 1vw;
     margin-left: 40px;
     font-family: handW;
     box-shadow: 2px 2px 4px black;
 }
 
-#main1 h2 {
+#juegos h2 {
     line-height: 5vw;
     text-align: center;
-}
-
-#main1 summary {
-    display: inline-block;
 }
 
 #back{
@@ -115,16 +127,17 @@ li {
     color: black;
     font-family: belligerentMadness;
     padding: 1vw;
-}
+}   
 
-.main2 {
+.juegoLibro {
     position: relative;
     background-image: url(paper-texture.jpg);
     background-size: cover;
     height: 33vw;
     width: 55vw;
     box-shadow: 2px 2px 4px black;
-    top: 25vw;
+    top: 23vw;
+    margin-top: 1vw
 }
 
 .indexText {
@@ -133,4 +146,10 @@ li {
     font-size: larger;
     text-decoration: none;
     color: black;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
