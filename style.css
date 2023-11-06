@@ -22,6 +22,7 @@ body {
     background-image: url(fnaftexturebeta.png);
     background-size: auto;
     min-height: 100vh;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -81,8 +82,7 @@ li {
 #fifa details{
     margin-top: 100px;
     margin-left: 95px;
-    transition-delay: 100ms;
-    transition: removeAtribute("open");
+    list-style: none;
 }
 
 #fifa details img{
@@ -105,6 +105,7 @@ li {
     top: 29%;
     left: 25%;
     margin: -25px 0 0 -25px;
+    margin-bottom: 0;
 }
 
 #juegos h2 {
@@ -170,26 +171,27 @@ footer {
 #backroms {
     display: inline-block;
     max-width: 2.5%;
-    margin-left: 10.2vw;
+    margin-left: 10.24vw;
 }
 
 #insta {
-    max-width: 2.5%;
-    margin-left: 15.5vw;
+    max-width: 2%;
+    margin-left: 15.7vw;
+    margin-bottom: 0.4vw;
 }
 
 #X {
-    max-width: 2.5%;
-    margin-left: 16vw;
+    max-width: 2.9%;
+    margin-left: 15.7vw;
 }
 
 #github {
     max-width: 2.5%;
-    margin-left: 15.7vw;
+    margin-left: 15.1vw;
 }
 
 #fnafwiki{
     max-width: 2.5%;
-    margin-left: 15.3vw;
+    margin-left: 15.6vw;
 }
 
