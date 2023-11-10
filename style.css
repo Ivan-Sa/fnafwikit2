@@ -140,6 +140,10 @@ li {
     text-align: center;
 }
 
+#juegos p {
+    margin-bottom: 0.4vw;
+}
+
 #back{
     position: fixed;
     bottom: 0;
