@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ES">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Five Nights at Freddy's Wiki</title>
     <script>
-    onclick = () => {
-    setTimeout(function(){
-    location.reload();
-    }, 800);(
-    !hi.hasAttribute("open")
-  )
-}
+        getElementById(hi).onclick =
+            setTimeout(function () {
+                $('#hi').removeAttribute("open");
+            }, 800);
     </script>
 </head>
 
 <body>
     <div id="page-container">
-        <div id="content-wrap">
+        <main id="content-wrap">
             <header id="top">
                 <h1>Five Nights at Freddy's Wiki</h1>
             </header>
@@ -29,10 +24,11 @@
                 <details id="hi"><img src="foxy.gif" alt="boo">
                     <summary> </summary>
                 </details>
-                </aside>
-            </details>
+                <aside id="posterPers"></aside>
+                <aside id="posterMov"></aside>
+            </aside>
 
-            <main id="juegos">
+            <article id="juegos">
                 <h2>Juegos</h2>
                 <details>
                     <summary>Five Nights at Freddy's 1</summary>
@@ -86,70 +82,88 @@
                 </details>
 
 
-                <main class="juegoPeli" id="num2">
+                <article class="juegoPeli" id="num2">
                     <h2>Personajes</h2>
                     <details>
-                        <summary>Freddy</summary>
-                        <p>freddy fazbear es el animatronico principal y rostro del restaurante freddy fazbear's pizza.
-                            Este fue
-                            creado originalmente junto a los demas para entretener al publico en el restaurante
-                            fredbear's
-                            family dinner, basando su diseño en el animatronico fredbear. Años despues cuando grupo de
-                            niños
-                            serian asesinados por William aftom </p>
-                    </details>
+                        <summary>Five Nights at Freddy's 1</summary>
+                        <details>
+                            <summary>Freddy</summary>
+                            <p>freddy fazbear es el animatronico principal y rostro del restaurante freddy fazbear's
+                                pizza.
+                                Este fue
+                                creado originalmente junto a los demas para entretener al publico en el restaurante
+                                fredbear's
+                                family dinner, basando su diseño en el animatronico fredbear. Años despues cuando grupo
+                                de
+                                niños
+                                serian asesinados por William aftom </p>
+                        </details>
 
-                    <details>
-                        <summary>Foxy</summary>
-                        <p>Foxy es uno de los cinco animatrónicos originales de los juegos, usados como entretenimiento
-                            en
-                            Freddy Fazbear's Pizza. Es reconocido por poseer su propia atracción, la Pirate Cove,
-                            separándole de
-                            la banda principal. Sin embargo esta atracción, así como su animatrónico estrella, siempre
-                            estuvieron Fuera de Servicio por razones desconocidas</p>
-                    </details>
+                        <details>
+                            <summary>Foxy</summary>
+                            <p>Foxy es uno de los cinco animatrónicos originales de los juegos, usados como
+                                entretenimiento
+                                en
+                                Freddy Fazbear's Pizza. Es reconocido por poseer su propia atracción, la Pirate Cove,
+                                separándole de
+                                la banda principal. Sin embargo esta atracción, así como su animatrónico estrella,
+                                siempre
+                                estuvieron Fuera de Servicio por razones desconocidas</p>
+                        </details>
 
-                    <details>
-                        <summary>William Afton</summary>
-                        <p>William afton es el antagonista principal en la franquicia de Five Nights at Freddy's, asi
-                            como
-                            culpable de casi todas las desgracias que afectan a la cadena del restaurante freddy
-                            fazbear's
-                            pizza. Aunque gran de su historia es desconocida, se sabe que es padre de al menos tres
-                            hijos (dos
-                            de ellos siendo Elizabeh y Michael Afton), y uno de los socios comerciales que crearon
-                            fredbear's
-                            family dinner. William tambien es el asesino de varios niños, entre los que se encuentra la
-                            hija de
-                            su amigo Henry </p>
+                        <details>
+                            <summary>William Afton</summary>
+                            <p>William afton es el antagonista principal en la franquicia de Five Nights at Freddy's,
+                                asi
+                                como
+                                culpable de casi todas las desgracias que afectan a la cadena del restaurante freddy
+                                fazbear's
+                                pizza. Aunque gran de su historia es desconocida, se sabe que es padre de al menos tres
+                                hijos (dos
+                                de ellos siendo Elizabeh y Michael Afton), y uno de los socios comerciales que crearon
+                                fredbear's
+                                family dinner. William tambien es el asesino de varios niños, entre los que se encuentra
+                                la
+                                hija de
+                                su amigo Henry </p>
+                        </details>
+                        <details>
+                            <summary></summary>
+                            <p></p>
+                        </details>
                     </details>
-                    <details>
-                        <summary></summary>
-                        <p></p>
-                    </details>
-                </main>
+                </article>
 
-                <main class="juegoPeli" id="num3">
+                <article class="juegoPeli" id="num3">
                     <h2>Pelicula</h2>
-                </main>
-            </main>
+                </article>
+            </article>
 
             <aside id="index2">
                 <a class="indexText" href="#Juegos"><b>Juegos</b></a><br>
                 <a class="indexText" href="#num2"><b>Personajes</b></a><br>
                 <a class="indexText" href="#num3"><b>Pelicula</b></a>
+                <aside id="form">
+                    <p>Porfavor deje una opinion sobre la pagina acá: <a href="#">Formulario</a></p>
+                </aside>
             </aside>
 
             <div id="back"><a href="#top"><b>Volver arriba</b></a></div>
-        </div>
-        <footer>
-            <a target="_blank" href="//miguel-e-lugo.github.io/The_Backrooms/"><img id="backroms" src="https://img.itch.zone/aW1nLzc1OTcxNjQucG5n/original/hmVKNm.png" alt="The Backrooms"></a>
-            <a target="_blank" href="https://media.tenor.com/C8w8RM4kDocAAAAd/backrooms-dance.gif"><img id="insta" src="insta.png" alt="Insta"></a>
-            <a target="_blank" href="https://media.tenor.com/KDyTDDxug4cAAAAd/fredbear-dance.gif"><img id="X" src="X.png" alt="X"></a>
-            <a target="_blank" href="https://github.com/Ivan-Sa"><img id="github" src="github.png" alt="github"></a>
-            <a target="_blank" href="https://freddy-fazbears-pizza.fandom.com/es/wiki/Five_Nights_at_Freddy%27s_Wiki"><img id="fnafwiki" src="iconfnaf.png" alt="fnafwiki"></a>
-        </footer>
-    </div>  
+        </main>
+    
+    <footer>
+        <a target="_blank" href="//miguel-e-lugo.github.io/The_Backrooms/"><img id="backroms"
+                src="https://img.itch.zone/aW1nLzc1OTcxNjQucG5n/original/hmVKNm.png" alt="The Backrooms"></a>
+        <a target="_blank" href="https://media.tenor.com/C8w8RM4kDocAAAAd/backrooms-dance.gif"><img id="insta"
+                src="insta.png" alt="Insta"></a>
+        <a target="_blank" href="https://media.tenor.com/KDyTDDxug4cAAAAd/fredbear-dance.gif"><img id="X"
+                src="X.png" alt="X"></a>
+        <a target="_blank" href="https://github.com/Ivan-Sa"><img id="github" src="github.png" alt="github"></a>
+        <a target="_blank"
+            href="https://freddy-fazbears-pizza.fandom.com/es/wiki/Five_Nights_at_Freddy%27s_Wiki"><img
+                id="fnafwiki" src="iconfnaf.png" alt="fnafwiki"></a>
+    </footer>
+</div>
 </body>
 
 </html>
