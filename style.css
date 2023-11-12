@@ -17,13 +17,16 @@
     margin: 0;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
-    padding: 0;
     background-image: url(fnaftexturebeta.png);
     background-size: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 header {
@@ -83,7 +86,7 @@ li {
     background-size: cover;
     height: 23vw;
     width: 17vw;
-    margin-top: 1vw;
+    margin-top: 2vw;
     margin-left: 2vw;
     box-shadow: 2px 2px 4px black;
 }
@@ -163,14 +166,18 @@ li {
 }   
 
 .juegoPeli {
-    position: relative;
+    position: absolute;
     background-image: url(paper-texture.jpg);
     background-size: cover;
     height: 33vw;
     width: 55vw;
     box-shadow: 2px 2px 4px black;
-    top: 23vw;
+    top: 33vw;
     margin-top: 1vw
+}
+
+#num3 {
+    margin-top: 35vw;
 }
 
 .indexText {
@@ -181,15 +188,9 @@ li {
     color: black;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100%;
-}
-
 footer {
     position: absolute;
-    top: 112vw;
-    bottom: 0;
+    top: 245%;
     width: 100vw;
     height: 2.5rem;
     background-image: url(https://i.pinimg.com/1200x/09/1e/e7/091ee76e8a5d1de04d35ef1bdd31c004.jpg);
@@ -221,4 +222,3 @@ footer {
     max-width: 2.5%;
     margin-left: 15.6vw;
 }
-
